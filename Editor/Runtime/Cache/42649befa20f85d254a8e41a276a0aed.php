@@ -1,0 +1,72 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<link rel="shortcut icon" href="">
+		<meta http-equiv="content-type" content="text/html; charset=BIG5">
+		
+		<script type="text/javascript" src="__PUBLIC__/Js/jquery.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/Editor/Editor.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/Editor/index.css" />
+		
+		<title>Index</title>
+	</head>
+	
+	<body onload="Test()">
+		<div id = "Div_TopLvlFrame">
+			<div id = "Div_UserInfo">
+			User Information:
+			</div>
+			
+			<div id = "Div_Header">
+				<div id = "Div_Logo">
+				Logo
+				</div>
+				
+				<div class  = "Div_Blank"></div>
+				
+				<div id = "Div_MenuTab">
+					<ul>
+						<li onClick = "SwitchToTab.call(this)">Catalog Setting</li>
+						<!--
+						<li class="Li_Fence"></li>
+						<li><a href="#">Catalog 1</a></li>
+						-->
+					</ul>	
+				</div>
+			</div>
+			
+			<div class = "Div_Blank"></div>
+			
+			<div id = "Div_Main">
+				<div id = "Div_CatalogSetting">
+					<div>
+						<form>
+							<fieldset>
+								<legend>Create A New Catalog</legend>
+								<p>Input the new menu catalog information:</p>
+								Catalog name: <input type = "text" id = "CatalogInput" /> <input type = "button" value = "Create" class = "Button" onclick = "AddCatalog()" >
+							</fieldset>
+						</form>	
+					</div>
+				
+					<div>
+						<form>
+							<fieldset id = "ExistingCatalogList">
+								<legend>The Existing Catalog Information</legend>
+								<p>There is no any existing manu catalog!</p>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<div class = "Div_Blank"></div>
+			
+			<div id = "Div_Footer">
+			Footer
+			</div>
+		</div>
+	</body>
+	
+</html>

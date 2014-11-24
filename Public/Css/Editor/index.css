@@ -1,0 +1,150 @@
+body {
+	margin:0px;
+	padding:0px;
+	font:12px Arial;
+	text-align:center;
+}
+
+div{
+	border-style: solid;
+	border-color:black;
+	border-width: 1px;
+}
+
+#Div_TopLvlFrame{
+	margin-left:auto;
+	margin-right:auto;
+	width:1024px;
+	height:768px;
+	text-align:left;
+}
+
+.Div_Blank{
+	float: left;
+	width:100%;
+	height:10px;
+	clear:both;
+	overflow:hidden;
+}
+
+#Div_UserInfo{
+	float: left;
+	width: 100%;
+	height: 20px;
+	/* background: grey;*/
+}
+
+#Div_Header{
+	float: left;
+	width: 100%;
+	/* height: 120px; */
+	/* background: red;*/
+}
+
+#Div_Header #Div_Logo{
+	float: left;
+	width: 100%;
+	height: 80px;
+}
+
+#Div_Header #Div_MenuTab{
+	float:left;
+	width:100%;
+	/* height: 28px; */
+	
+	/* background:#aaa;*/
+}
+
+#Div_MenuTab ul{
+	list-style-type:none;
+	
+	margin: 0px;
+	padding: 0px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	overflow:hidden;
+}
+
+#Div_MenuTab li {
+	display:inline;
+
+	margin: 0px;
+	padding: 0px;
+	
+	height:25px;
+	line-height:28px;
+	float:left;
+	width:100px;
+	text-align:center;
+	
+	border: 1px outset black;
+}
+
+#Div_MenuTab a{
+	display:block;
+	/* background-color:#dddddd; */
+}
+
+#Div_Header #Div_MenuTab .Li_Fence{
+	float:left;
+	width:3px;
+	height:12px;
+	margin-top:8px;
+	overflow:hidden;
+	background:#000;
+	
+	border: none;
+}
+
+#Div_Main{
+	float: left;
+	width: 100%;
+	height: 800px;
+	/* background: blue; */
+}
+
+#Div_CatalogSetting{
+	float: left;
+	width: 100%;
+	/* background-color: blue;*/
+	z-index: 0;
+}
+
+.Div_CatalogListItem{
+	float: left;
+	width: 100%;
+	height: 25px;
+	text-align: left;
+}
+
+.Div_Catalog
+{
+	position: absolute;
+	float: left;
+	width: 1024px;
+	height: 500px;
+	
+	/* background-color: red;*/
+}
+
+.Div_CatalogListItem .TextDiv{
+	float: left;
+	width: 250px;
+	height: 25px;
+	border: 1px outset;
+}
+
+/*.Div_CatalogListItem */.Button{
+	width: 100px;
+	height: 25px;
+	margin-left: 50px;
+	margin-right: 0px;
+}
+
+#Div_Footer{
+	float: left;
+	width: 100%;
+	height: 80px;
+	background: yellow;
+}

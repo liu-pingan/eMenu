@@ -1,0 +1,73 @@
+[ 2014-10-25T18:13:30+08:00 ] 127.0.0.1 /TP001/Editor.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `emenu_user` [ RunTime:0.020757s ]
+
+[ 2014-10-25T18:13:59+08:00 ] 127.0.0.1 /TP001/Editor.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `emenu_user` [ RunTime:0.021964s ]
+SQL: SELECT * FROM `emenu_user`  [ RunTime:0.000438s ]
+
+[ 2014-10-25T23:26:47+08:00 ] ERR: (ThinkException) Action:redirection您所请求的方法不存在！
+[ 2014-10-25T23:27:45+08:00 ] 127.0.0.1 /TP001/Editor.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001607s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001478s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001665s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.074361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074663s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001680s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001756s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001353s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007561s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002208s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002549s ]
+
+[ 2014-10-25T23:27:45+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-10-25T23:27:58+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-10-25T23:28:04+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-10-25T23:28:04+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-10-25T23:28:05+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-10-25T23:28:05+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-10-25T23:28:05+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-10-25T23:28:06+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-10-25T23:28:06+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-10-25T23:28:06+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-10-25T23:40:38+08:00 ] 127.0.0.1 /TP001/Editor.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002816s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003042s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001927s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001391s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001572s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011876s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000918s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000862s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000834s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003850s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000923s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2014-10-25T23:40:38+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-10-25T23:40:49+08:00 ] ERR: (ThinkException) 无法加载模块:Public
+[ 2014-10-25T23:40:52+08:00 ] ERR: (ThinkException) 无法加载模块:Public

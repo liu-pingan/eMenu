@@ -1,0 +1,969 @@
+[ 2014-11-12T16:21:52+08:00 ] 127.0.0.1 /TP001/Editor.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005806s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005958s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001600s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001794s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012686s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001143s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001124s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000956s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005066s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001253s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2014-11-12T16:21:52+08:00 ] 127.0.0.1 /TP001/Editor.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+
+[ 2014-11-12T16:22:06+08:00 ] ERR: (ThinkException) Unknown database 'emenu'
+[ 2014-11-12T16:36:15+08:00 ] 127.0.0.1 /TP001/Editor.php/Public/code?0.3967347348183008
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003199s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002821s ]
+
+[ 2014-11-12T16:36:16+08:00 ] 127.0.0.1 /TP001/Editor.php/Public/code?0.3967347348183008?0.4000196551778159
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002927s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003124s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+
+[ 2014-11-12T16:36:33+08:00 ] 127.0.0.1 /TP001/Editor.php/Public/code?0.3967347348183008?0.4000196551778159?0.05562692383696155
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+
+[ 2014-11-12T16:36:37+08:00 ] 127.0.0.1 /TP001/Editor.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002086s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002300s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002392s ]
+SQL: SHOW COLUMNS FROM `emenu_user` [ RunTime:0.006495s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `emenu_user` WHERE ( `UserName` = 'Editor' ) AND ( `Password` = '123456' ) LIMIT 1   [ RunTime:0.000683s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001968s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002107s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012695s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001902s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001291s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001096s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006187s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001386s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001485s ]
+
+[ 2014-11-12T16:36:38+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001990s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001828s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001962s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016609s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001827s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001257s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000977s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005755s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001508s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001611s ]
+
+[ 2014-11-12T16:36:38+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002367s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002606s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002095s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002257s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016479s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001349s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001292s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001101s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005678s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002115s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002298s ]
+
+[ 2014-11-12T17:28:08+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001439s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002135s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002304s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014263s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001058s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001100s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001149s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005271s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001449s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2014-11-12T17:28:08+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002611s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002793s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003025s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019060s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001570s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003826s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000929s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007900s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001086s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2014-11-12T17:28:50+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002062s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001586s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001771s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016078s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001277s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000984s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000829s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004635s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2014-11-12T17:28:50+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001181s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001334s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001370s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001509s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000808s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000880s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000769s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003875s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001253s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2014-11-12T17:30:38+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001760s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001667s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013951s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000907s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000820s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000681s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003826s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001193s ]
+
+[ 2014-11-12T17:30:38+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001547s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001718s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001689s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001837s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014789s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001749s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001475s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001222s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006691s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001657s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2014-11-12T17:31:15+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001685s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001888s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001565s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001700s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014789s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001483s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001124s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000955s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005175s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001172s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2014-11-12T17:31:15+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002236s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002468s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001482s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001633s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011716s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000916s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000736s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003989s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001177s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2014-11-12T17:32:03+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001309s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001616s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001765s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013564s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000854s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000818s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000712s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003870s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2014-11-12T17:32:04+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001442s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001574s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001724s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012510s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001079s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001078s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000900s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004576s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2014-11-12T17:33:03+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001769s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001943s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015914s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001052s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000920s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000796s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004290s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001195s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2014-11-12T17:33:03+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001559s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001726s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001863s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013786s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001155s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001093s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001320s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006095s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001837s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2014-11-12T17:39:27+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002116s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002331s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001564s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001756s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015113s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001054s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000989s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000791s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004240s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001300s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2014-11-12T17:39:27+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001535s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001946s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002096s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014520s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001457s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001254s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000700s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004934s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001074s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2014-11-12T17:39:27+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001909s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002207s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001772s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001962s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017112s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001242s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001196s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000733s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004793s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001555s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001726s ]
+
+[ 2014-11-12T17:40:12+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001272s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001464s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015638s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000838s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000809s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000586s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003641s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001261s ]
+
+[ 2014-11-12T17:40:45+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002708s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002424s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002311s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002471s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016258s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001012s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001264s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000786s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004577s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001218s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2014-11-12T17:43:12+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001740s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001650s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001801s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015186s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001466s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000994s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000750s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004687s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001237s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2014-11-12T17:44:16+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001709s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001872s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013976s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000998s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000998s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001225s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005480s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001748s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001988s ]
+
+[ 2014-11-12T17:49:19+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001637s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001939s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016333s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000848s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000851s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000651s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003761s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2014-11-12T17:51:48+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001735s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001909s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001717s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001928s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012322s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000887s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001131s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001229s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004814s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002183s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002343s ]
+
+[ 2014-11-12T17:52:39+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001928s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002109s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013542s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000956s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000844s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000719s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003857s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001075s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2014-11-12T17:56:14+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002125s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002351s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002701s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002950s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014307s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001026s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000994s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000727s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004290s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001601s ]
+
+[ 2014-11-12T17:59:31+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001456s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001627s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001400s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001590s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014540s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000977s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000880s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000686s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003868s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2014-11-12T18:05:51+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001640s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001809s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015575s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001057s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001097s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000785s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004563s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001970s ]
+
+[ 2014-11-12T18:10:16+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001961s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002125s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018380s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001456s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001020s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000790s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004751s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002119s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002248s ]
+
+[ 2014-11-12T18:10:52+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002429s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001653s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001799s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019500s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001888s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001233s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000935s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005568s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001147s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2014-11-12T18:11:34+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001538s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001707s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001794s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002100s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016207s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001016s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000990s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000815s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004377s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001811s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001950s ]
+
+[ 2014-11-12T18:13:47+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002164s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020449s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000970s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000984s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000933s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005131s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001478s ]
+
+[ 2014-11-12T18:15:58+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001301s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001269s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001414s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012086s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000777s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000755s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000744s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003695s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2014-11-12T18:18:48+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001361s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001523s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001653s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001824s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014314s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001349s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001051s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000691s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004800s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001084s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2014-11-12T18:20:38+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001332s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001563s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001328s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001465s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012029s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000808s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000917s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000771s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004344s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001446s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2014-11-12T18:20:42+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001436s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001592s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014623s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000828s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000816s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000590s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003670s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001240s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2014-11-12T18:20:53+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001395s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001148s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001317s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016153s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000774s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000744s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000498s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003245s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2014-11-12T18:22:54+08:00 ] 127.0.0.1 /TP001/Editor.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001751s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001916s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' C:\wamp\www\TP001\Editor\Lib\Action\IndexAction.class.php 第 6 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001899s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002104s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015786s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000929s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001149s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000988s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005375s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001731s ]
+
